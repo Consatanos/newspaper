@@ -47,6 +47,13 @@ const loadingFacts = (facts) => {
   }
 };
 
+const loadingAithors = (authors) => {
+  return {
+    type: 'LOADING_AUTHORS',
+    payload: authors
+  }
+};
+
 export {
   testActions,
   loadingNavigation,
@@ -54,5 +61,6 @@ export {
   loadingVideos,
   loadingPosts,
   loadingNews,
-  loadingFacts
+  loadingFacts,
+  loadingAithors
 };

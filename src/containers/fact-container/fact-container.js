@@ -16,7 +16,6 @@ class FactContainer extends Component {
 
   render() {
     const { facts } = this.props;
-    console.log(facts);
     return (
       <div className="row align-items-center mt-80">
         {

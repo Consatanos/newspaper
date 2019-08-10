@@ -113,6 +113,80 @@ export default class InfoService {
         text: 'Donec turpis erat, scelerisq'
       }
     ],
+    authors: [
+      {
+        id: 1,
+        name: 'James Williams',
+        position: 'Senior Editor',
+        imageUrl: 'bg-img/t1.jpg'
+      },
+      {
+        id: 2,
+        name: 'Christinne Smith',
+        position: 'Senior Editor',
+        imageUrl: 'bg-img/t2.jpg'
+      },
+      {
+        id: 3,
+        name: 'Alicia Dormund',
+        position: 'Senior Editor',
+        imageUrl: 'bg-img/t3.jpg'
+      },
+      {
+        id: 4,
+        name: 'Steve Duncan',
+        position: 'Senior Editor',
+        imageUrl: 'bg-img/t4.jpg'
+      },
+      {
+        id: 5,
+        name: 'James Williams',
+        position: 'Senior Editor',
+        imageUrl: 'bg-img/t5.jpg'
+      },
+      {
+        id: 6,
+        name: 'Christinne Smith',
+        position: 'Senior Editor',
+        imageUrl: 'bg-img/t6.jpg'
+      },
+      {
+        id: 7,
+        name: 'Alicia Dormund',
+        position: 'Senior Editor',
+        imageUrl: 'bg-img/t7.jpg'
+      },
+      {
+        id: 8,
+        name: 'Steve Duncan',
+        position: 'Senior Editor',
+        imageUrl: 'bg-img/t8.jpg'
+      },
+      {
+        id: 9,
+        name: 'James Williams',
+        position: 'Senior Editor',
+        imageUrl: 'bg-img/t5.jpg'
+      },
+      {
+        id: 10,
+        name: 'Christinne Smith',
+        position: 'Senior Editor',
+        imageUrl: 'bg-img/t6.jpg'
+      },
+      {
+        id: 11,
+        name: 'Alicia Dormund',
+        position: 'Senior Editor',
+        imageUrl: 'bg-img/t7.jpg'
+      },
+      {
+        id: 12,
+        name: 'Steve Duncan',
+        position: 'Senior Editor',
+        imageUrl: 'bg-img/t8.jpg'
+      }
+    ],
     posts: [
       {
         id: 1,

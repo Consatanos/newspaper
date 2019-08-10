@@ -1,6 +1,6 @@
 import React from 'react';
 import { FactContainer } from '../../containers/fact-container';
-
+import { AuthorContainer } from '../../containers/author-container';
 
 const About = () => {
   return (
@@ -12,7 +12,6 @@ const About = () => {
               <h2>A young and professional team</h2>
             </div>
           </div>
-
           <div className="row">
             <div className="col-12 col-lg-6">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placerat. Sed varius leo ac leo fermentum, eu cursus nunc maximus. Integer convallis nisi nibh, et ornare neque ullamcorper ac. Nam id congue lec tus, a venenatis massa. Maecenas justo libero, vulputate vel nunc id, blandit feugiat sem.</p>
@@ -26,6 +25,7 @@ const About = () => {
           <FactContainer />
         </div>
       </section>
+      <AuthorContainer />
     </>
   )
 };
