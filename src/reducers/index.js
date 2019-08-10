@@ -6,6 +6,7 @@ const initialState = {
   news: [],
   facts: [],
   authors: [],
+  comments: [],
   contacts: [
     {
       name: 'phone',
@@ -67,6 +68,11 @@ const reducer = (state = initialState, action) => {
       return {
         ...state,
         authors: action.payload
+      }
+    case 'LOADING_COMMENTS':
+      return {
+        ...state,
+        comments: action.payload
       }
 
     default:

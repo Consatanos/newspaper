@@ -16,7 +16,6 @@ class AuthorContainer extends Component {
 
   render() {
     const { authors } = this.props;
-    console.log(authors);
     return (
       <section className="newspaper-team mb-30">
         <div className="container">

@@ -54,6 +54,13 @@ const loadingAithors = (authors) => {
   }
 };
 
+const loadingComments = (comments) => {
+  return {
+    type: 'LOADING_COMMENTS':
+    payload: comments
+  }
+}
+
 export {
   testActions,
   loadingNavigation,
@@ -62,5 +69,6 @@ export {
   loadingPosts,
   loadingNews,
   loadingFacts,
-  loadingAithors
+  loadingAithors,
+  loadingComments
 };

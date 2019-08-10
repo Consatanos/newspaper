@@ -285,6 +285,72 @@ export default class InfoService {
         descr: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placerat. Sed varius leo ac leo fermentum, eu cursus nunc maximus. Integer convallis nisi nibh, et ornare neque ullamcorper ac. Nam id congue lectus, a venenatis massa. Maecenas justo libero, vulputate vel nunc id, blandit feugiat sem.'
       }
     ],
+    comments: [
+      {
+        id: 1,
+        imageUrl: 'bg-img/29.jpg',
+        name: 'Jamie Smith',
+        position: 'Facebook is offering facial recognition...',
+        text: 'Donec turpis erat, scelerisque id euismod sit amet, fermentum vel dolor. Nulla facilisi. Sed pellen tesque lectus et accu msan aliquam. Fusce lobortis cursus quam, id mattis sapien.',
+        date: '06:34 am, April 14, 2018'
+      },
+      {
+        id: 2,
+        imageUrl: 'bg-img/30.jpg',
+        name: 'Jamie Smith',
+        position: 'Facebook is offering facial recognition...',
+        text: 'Donec turpis erat, scelerisque id euismod sit amet, fermentum vel dolor. Nulla facilisi. Sed pellen tesque lectus et accu msan aliquam. Fusce lobortis cursus quam, id mattis sapien.',
+        date: '06:34 am, April 14, 2018'
+      },
+      {
+        id: 3,
+        imageUrl: 'bg-img/31.jpg',
+        name: 'Jamie Smith',
+        position: 'Facebook is offering facial recognition...',
+        text: 'Donec turpis erat, scelerisque id euismod sit amet, fermentum vel dolor. Nulla facilisi. Sed pellen tesque lectus et accu msan aliquam. Fusce lobortis cursus quam, id mattis sapien.',
+        date: '06:34 am, April 14, 2018'
+      },
+      {
+        id: 4,
+        imageUrl: 'bg-img/32.jpg',
+        name: 'Jamie Smith',
+        position: 'Facebook is offering facial recognition...',
+        text: 'Donec turpis erat, scelerisque id euismod sit amet, fermentum vel dolor. Nulla facilisi. Sed pellen tesque lectus et accu msan aliquam. Fusce lobortis cursus quam, id mattis sapien.',
+        date: '06:34 am, April 14, 2018'
+      },
+      {
+        id: 5,
+        imageUrl: 'bg-img/29.jpg',
+        name: 'Jamie Smith',
+        position: 'Facebook is offering facial recognition...',
+        text: 'Donec turpis erat, scelerisque id euismod sit amet, fermentum vel dolor. Nulla facilisi. Sed pellen tesque lectus et accu msan aliquam. Fusce lobortis cursus quam, id mattis sapien.',
+        date: '06:34 am, April 14, 2018'
+      },
+      {
+        id: 6,
+        imageUrl: 'bg-img/30.jpg',
+        name: 'Jamie Smith',
+        position: 'Facebook is offering facial recognition...',
+        text: 'Donec turpis erat, scelerisque id euismod sit amet, fermentum vel dolor. Nulla facilisi. Sed pellen tesque lectus et accu msan aliquam. Fusce lobortis cursus quam, id mattis sapien.',
+        date: '06:34 am, April 14, 2018'
+      },
+      {
+        id: 7,
+        imageUrl: 'bg-img/31.jpg',
+        name: 'Jamie Smith',
+        position: 'Facebook is offering facial recognition...',
+        text: 'Donec turpis erat, scelerisque id euismod sit amet, fermentum vel dolor. Nulla facilisi. Sed pellen tesque lectus et accu msan aliquam. Fusce lobortis cursus quam, id mattis sapien.',
+        date: '06:34 am, April 14, 2018'
+      },
+      {
+        id: 8,
+        imageUrl: 'bg-img/32.jpg',
+        name: 'Jamie Smith',
+        position: 'Facebook is offering facial recognition...',
+        text: 'Donec turpis erat, scelerisque id euismod sit amet, fermentum vel dolor. Nulla facilisi. Sed pellen tesque lectus et accu msan aliquam. Fusce lobortis cursus quam, id mattis sapien.',
+        date: '06:34 am, April 14, 2018'
+      }
+    ],
     navigation: [
       {
         name: 'Politics',
