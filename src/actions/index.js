@@ -4,7 +4,14 @@ const testActions = (tests) => {
     payload: tests
   };
 };
+const loadingNavigation = (navigation) => {
+  return {
+    type: 'LOADING_NAVIGATION',
+    payload: navigation
+  };
+};
 
 export {
-  testActions
+  testActions,
+  loadingNavigation
 };

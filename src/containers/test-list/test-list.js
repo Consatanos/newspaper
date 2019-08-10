@@ -19,12 +19,14 @@ class TestList extends Component {
     const { infoListService, testActions } = this.props;
     infoListService.getTests()
       .then((data) => {
+        console.log('get', data);
         testActions(data)
       });
   };
 
   render() {
     const { tests } = this.props;
+    console.log('print', tests)
     return (
       <>
         {
@@ -51,6 +53,7 @@ const mapStateToProps = ({ tests }) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     testActions: (testsList) => {
+      console.log('send', testsList)
       dispatch({
         type: 'TEST_ACTIONS',
         payload: testsList

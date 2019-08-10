@@ -1,5 +1,6 @@
 const initialState = {
-  tests: []
+  tests: [],
+  navigation: []
 };
 
 const reducer = (state = initialState, action) => {
@@ -7,6 +8,10 @@ const reducer = (state = initialState, action) => {
     case 'TEST_ACTIONS':
       return {
         tests: action.payload
+      }
+    case 'LOADING_NAVIGATION':
+      return {
+        navigation: action.payload
       }
 
     default:

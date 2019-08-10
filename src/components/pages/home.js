@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       HOME PAGE
-      <TestList />
+      {/* <TestList /> */}
     </>
   )
 };
