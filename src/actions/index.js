@@ -4,34 +4,46 @@ const testActions = (tests) => {
     payload: tests
   };
 };
+
 const loadingNavigation = (navigation) => {
   return {
     type: 'LOADING_NAVIGATION',
     payload: navigation
   };
 };
+
 const loadingContactsFooter = (contacts) => {
   return {
     type: 'LOADING_CONTACTS_FOOTER',
     payload: contacts
   };
 };
+
 const loadingVideos = (videos) => {
   return {
     type: 'LOADING_VIDEOS',
     payload: videos
   }
 };
+
 const loadingPosts = (posts) => {
   return {
     type: 'LOADING_POSTS',
     payload: posts
   }
 };
+
 const loadingNews = (news) => {
   return {
     type: 'LOADING_NEWS',
     payload: news
+  }
+};
+
+const loadingFacts = (facts) => {
+  return {
+    type: 'LOADING_FACTS',
+    payload: facts
   }
 };
 
@@ -41,5 +53,6 @@ export {
   loadingContactsFooter,
   loadingVideos,
   loadingPosts,
-  loadingNews
+  loadingNews,
+  loadingFacts
 };

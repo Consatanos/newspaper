@@ -4,6 +4,7 @@ const initialState = {
   videos: [],
   posts: [],
   news: [],
+  facts: [],
   contacts: [
     {
       name: 'phone',
@@ -55,6 +56,11 @@ const reducer = (state = initialState, action) => {
       return {
         ...state,
         news: action.payload
+      }
+    case 'LOADING_FACTS':
+      return {
+        ...state,
+        facts: action.payload
       }
 
     default:

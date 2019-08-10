@@ -87,6 +87,32 @@ export default class InfoService {
         imageUrl: 'bg-img/4.jpg'
       }
     ],
+    facts: [
+      {
+        id: 1,
+        counter: '12',
+        title: 'News Article',
+        text: 'Donec turpis erat, scelerisq'
+      },
+      {
+        id: 2,
+        counter: '45',
+        title: 'Reporters',
+        text: 'Donec turpis erat, scelerisq'
+      },
+      {
+        id: 3,
+        counter: '25',
+        title: 'Awards Won',
+        text: 'Donec turpis erat, scelerisq'
+      },
+      {
+        id: 4,
+        counter: '17',
+        title: 'Years Old',
+        text: 'Donec turpis erat, scelerisq'
+      }
+    ],
     posts: [
       {
         id: 1,
