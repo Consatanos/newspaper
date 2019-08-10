@@ -37,6 +37,56 @@ export default class InfoService {
         videoUrl: 'https://www.youtube.com/watch?v=5BQr-j3BBzU'
       }
     ],
+    news: [
+      {
+        id: 1,
+        title: 'Amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales.',
+        date: 'April 14, 2018',
+        imageUrl: 'bg-img/1.jpg'
+      },
+      {
+        id: 2,
+        title: 'Consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer.',
+        date: 'April 14, 2018',
+        imageUrl: 'bg-img/2.jpg'
+      },
+      {
+        id: 3,
+        title: 'Adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo.',
+        date: 'April 14, 2018',
+        imageUrl: 'bg-img/3.jpg'
+      },
+      {
+        id: 4,
+        title: 'Eu metus sit amet odio sodales placer. Sed varius leo ac...',
+        date: 'April 14, 2018',
+        imageUrl: 'bg-img/4.jpg'
+      },
+      {
+        id: 5,
+        title: 'Amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales.',
+        date: 'April 14, 2018',
+        imageUrl: 'bg-img/1.jpg'
+      },
+      {
+        id: 6,
+        title: 'Consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer.',
+        date: 'April 14, 2018',
+        imageUrl: 'bg-img/2.jpg'
+      },
+      {
+        id: 7,
+        title: 'Adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo.',
+        date: 'April 14, 2018',
+        imageUrl: 'bg-img/3.jpg'
+      },
+      {
+        id: 8,
+        title: 'Eu metus sit amet odio sodales placer. Sed varius leo ac...',
+        date: 'April 14, 2018',
+        imageUrl: 'bg-img/4.jpg'
+      }
+    ],
     posts: [
       {
         id: 1,

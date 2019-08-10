@@ -28,11 +28,18 @@ const loadingPosts = (posts) => {
     payload: posts
   }
 };
+const loadingNews = (news) => {
+  return {
+    type: 'LOADING_NEWS',
+    payload: news
+  }
+};
 
 export {
   testActions,
   loadingNavigation,
   loadingContactsFooter,
   loadingVideos,
-  loadingPosts
+  loadingPosts,
+  loadingNews
 };

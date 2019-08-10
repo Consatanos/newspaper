@@ -3,6 +3,7 @@ const initialState = {
   navigation: [],
   videos: [],
   posts: [],
+  news: [],
   contacts: [
     {
       name: 'phone',
@@ -49,6 +50,11 @@ const reducer = (state = initialState, action) => {
       return {
         ...state,
         posts: action.payload
+      }
+    case 'LOADING_NEWS':
+      return {
+        ...state,
+        news: action.payload
       }
 
     default:

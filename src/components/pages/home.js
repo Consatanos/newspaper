@@ -3,6 +3,7 @@ import FooterAdd from '../footer-add';
 import VideoContainer from '../../containers/video-container';
 import { PostMinicardContainer } from '../../containers/post-container';
 import { SectionHeader } from '../section';
+import { NewsAsideContainer } from '../../containers/news-container';
 
 const Home = () => {
   return (
@@ -22,7 +23,7 @@ const Home = () => {
               <SectionHeader
                 title="Info" />
               {/* Popular News Widget */}
-
+              <NewsAsideContainer />
               {/* Newsletter Widget */}
 
             </div>
