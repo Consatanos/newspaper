@@ -1,11 +1,11 @@
 import React from 'react';
-import TestList from '../../containers/test-list';
+import FooterAdd from '../footer-add';
 
 const Home = () => {
   return (
     <>
       HOME PAGE
-      {/* <TestList /> */}
+      <FooterAdd />
     </>
   )
 };
