@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { Home, About } from '../pages';
+import { Home, About, Post, Contact, Categories } from '../pages';
 
 const App = () => {
   return (
@@ -12,6 +12,15 @@ const App = () => {
       <Route
         path="/about"
         component={About} />
+      <Route
+        path="/post"
+        component={Post} />
+      <Route
+        path="/contact"
+        component={Contact} />
+      <Route
+        path="/categories"
+        component={Categories} />
     </Switch>
   )
 };
