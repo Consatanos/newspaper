@@ -16,9 +16,16 @@ const loadingContactsFooter = (contacts) => {
     payload: contacts
   };
 };
+const loadingVideos = (videos) => {
+  return {
+    type: 'LOADING_VIDEOS',
+    payload: videos
+  }
+}
 
 export {
   testActions,
   loadingNavigation,
-  loadingContactsFooter
+  loadingContactsFooter,
+  loadingVideos
 };

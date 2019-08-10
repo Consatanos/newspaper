@@ -10,6 +10,33 @@ export default class InfoService {
         title: 'TEST 2'
       }
     ],
+    videos: [
+      {
+        id: 1,
+        imageUrl: 'bg-img/video1.jpg',
+        videoUrl: 'https://www.youtube.com/watch?v=5BQr-j3BBzU'
+      },
+      {
+        id: 2,
+        imageUrl: 'bg-img/video2.jpg',
+        videoUrl: 'https://www.youtube.com/watch?v=5BQr-j3BBzU'
+      },
+      {
+        id: 3,
+        imageUrl: 'bg-img/video3.jpg',
+        videoUrl: 'https://www.youtube.com/watch?v=5BQr-j3BBzU'
+      },
+      {
+        id: 4,
+        imageUrl: 'bg-img/video2.jpg',
+        videoUrl: 'https://www.youtube.com/watch?v=5BQr-j3BBzU'
+      },
+      {
+        id: 5,
+        imageUrl: 'bg-img/video3.jpg',
+        videoUrl: 'https://www.youtube.com/watch?v=5BQr-j3BBzU'
+      }
+    ],
     navigation: [
       {
         name: 'Politics',
