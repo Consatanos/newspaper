@@ -3,14 +3,12 @@ import { SectionHeader } from '../section';
 import FooterAdd from '../footer-add';
 import VideoContainer from '../../containers/video-container';
 import { PostMinicardContainer, PostAsideContainer } from '../../containers/post-container';
-import { NewsAsideContainer, NewsCardContainer } from '../../containers/news-container';
+import { NewsAsideContainer, NewsCardContainer, NewsMinicardContainer } from '../../containers/news-container';
 import { FormNewsletter } from '../form';
 
 const Home = () => {
   return (
     <>
-      HOME PAGE
-
       {/* Featured Post Area */}
       <div className="featured-post-area">
         <div className="container">
@@ -64,7 +62,7 @@ const Home = () => {
             <div className="col-12 col-md-5 col-lg-3">
               <SectionHeader
                 title="World News" />
-
+              <NewsMinicardContainer />
             </div>
           </div>
         </div>
