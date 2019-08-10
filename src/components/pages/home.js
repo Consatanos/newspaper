@@ -1,9 +1,10 @@
 import React from 'react';
+import { SectionHeader } from '../section';
 import FooterAdd from '../footer-add';
 import VideoContainer from '../../containers/video-container';
 import { PostMinicardContainer } from '../../containers/post-container';
-import { SectionHeader } from '../section';
 import { NewsAsideContainer } from '../../containers/news-container';
+import { FormNewsletter } from '../form';
 
 const Home = () => {
   return (
@@ -25,7 +26,7 @@ const Home = () => {
               {/* Popular News Widget */}
               <NewsAsideContainer />
               {/* Newsletter Widget */}
-
+              <FormNewsletter />
             </div>
           </div>
         </div>

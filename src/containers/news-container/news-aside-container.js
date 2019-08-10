@@ -16,7 +16,6 @@ class NewsAsideContainer extends Component {
 
   render() {
     const { news } = this.props;
-    console.log(news);
     return (
       <div className="popular-news-widget mb-50">
         <h3>4 Most Popular News</h3>
