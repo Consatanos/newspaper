@@ -37,6 +37,104 @@ export default class InfoService {
         videoUrl: 'https://www.youtube.com/watch?v=5BQr-j3BBzU'
       }
     ],
+    posts: [
+      {
+        id: 1,
+        imageUrl: 'bg-img/13.jpg',
+        category: 'Finance',
+        title: 'Pellentesque mattis arcu massa, nec fringilla turpis eleifend id.',
+        time: '7:00 AM',
+        date: 'April 14',
+        likeCount: '192',
+        commentCount: '10',
+        author: 'Christinne Williams',
+        descr: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placerat. Sed varius leo ac leo fermentum, eu cursus nunc maximus. Integer convallis nisi nibh, et ornare neque ullamcorper ac. Nam id congue lectus, a venenatis massa. Maecenas justo libero, vulputate vel nunc id, blandit feugiat sem.'
+      },
+      {
+        id: 2,
+        imageUrl: 'bg-img/14.jpg',
+        category: 'Politics',
+        title: 'Sed a elit euismod augue semper congue sit amet ac sapien.',
+        time: '7:00 AM',
+        date: 'April 14',
+        likeCount: '312',
+        commentCount: '10',
+        author: 'Christinne Williams',
+        descr: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placerat. Sed varius leo ac leo fermentum, eu cursus nunc maximus. Integer convallis nisi nibh, et ornare neque ullamcorper ac. Nam id congue lectus, a venenatis massa. Maecenas justo libero, vulputate vel nunc id, blandit feugiat sem.'
+      },
+      {
+        id: 3,
+        imageUrl: 'bg-img/15.jpg',
+        category: 'Health',
+        title: 'Pellentesque mattis arcu massa, nec fringilla turpis eleifend id.',
+        time: '7:00 AM',
+        date: 'April 14',
+        likeCount: '392',
+        commentCount: '10',
+        author: 'Christinne Williams',
+        descr: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placerat. Sed varius leo ac leo fermentum, eu cursus nunc maximus. Integer convallis nisi nibh, et ornare neque ullamcorper ac. Nam id congue lectus, a venenatis massa. Maecenas justo libero, vulputate vel nunc id, blandit feugiat sem.'
+      },
+      {
+        id: 4,
+        imageUrl: 'bg-img/25.jpg',
+        category: 'Finance',
+        title: 'Financial news: A new company is born today at the stock market',
+        time: '7:00 AM',
+        date: 'April 14',
+        likeCount: '392',
+        commentCount: '10',
+        author: 'Christinne Williams',
+        descr: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placerat. Sed varius leo ac leo fermentum, eu cursus nunc maximus. Integer convallis nisi nibh, et ornare neque ullamcorper ac. Nam id congue lectus, a venenatis massa. Maecenas justo libero, vulputate vel nunc id, blandit feugiat sem.'
+      },
+      {
+        id: 5,
+        imageUrl: 'bg-img/13.jpg',
+        category: 'Finance',
+        title: 'Pellentesque mattis arcu massa, nec fringilla turpis eleifend id.',
+        time: '7:00 AM',
+        date: 'April 14',
+        likeCount: '192',
+        commentCount: '10',
+        author: 'Christinne Williams',
+        descr: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placerat. Sed varius leo ac leo fermentum, eu cursus nunc maximus. Integer convallis nisi nibh, et ornare neque ullamcorper ac. Nam id congue lectus, a venenatis massa. Maecenas justo libero, vulputate vel nunc id, blandit feugiat sem.'
+      },
+      {
+        id: 6,
+        imageUrl: 'bg-img/14.jpg',
+        category: 'Politics',
+        title: 'Sed a elit euismod augue semper congue sit amet ac sapien.',
+        time: '7:00 AM',
+        date: 'April 14',
+        likeCount: '312',
+        commentCount: '10',
+        author: 'Christinne Williams',
+        descr: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placerat. Sed varius leo ac leo fermentum, eu cursus nunc maximus. Integer convallis nisi nibh, et ornare neque ullamcorper ac. Nam id congue lectus, a venenatis massa. Maecenas justo libero, vulputate vel nunc id, blandit feugiat sem.'
+      },
+      {
+        id: 7,
+        imageUrl: 'bg-img/15.jpg',
+        category: 'Health',
+        title: 'Pellentesque mattis arcu massa, nec fringilla turpis eleifend id.',
+        time: '7:00 AM',
+        date: 'April 14',
+        likeCount: '392',
+        commentCount: '10',
+        author: 'Christinne Williams',
+        descr: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placerat. Sed varius leo ac leo fermentum, eu cursus nunc maximus. Integer convallis nisi nibh, et ornare neque ullamcorper ac. Nam id congue lectus, a venenatis massa. Maecenas justo libero, vulputate vel nunc id, blandit feugiat sem.'
+      },
+      {
+        id: 8,
+        imageUrl: 'bg-img/25.jpg',
+        category: 'Finance',
+        title: 'Financial news: A new company is born today at the stock market',
+        time: '7:00 AM',
+        date: 'April 14',
+        likeCount: '392',
+        commentCount: '10',
+        author: 'Christinne Williams',
+        descr: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placerat. Sed varius leo ac leo fermentum, eu cursus nunc maximus. Integer convallis nisi nibh, et ornare neque ullamcorper ac. Nam id congue lectus, a venenatis massa. Maecenas justo libero, vulputate vel nunc id, blandit feugiat sem.'
+      }
+    ],
     navigation: [
       {
         name: 'Politics',

@@ -21,11 +21,18 @@ const loadingVideos = (videos) => {
     type: 'LOADING_VIDEOS',
     payload: videos
   }
-}
+};
+const loadingPosts = (posts) => {
+  return {
+    type: 'LOADING_POSTS',
+    payload: posts
+  }
+};
 
 export {
   testActions,
   loadingNavigation,
   loadingContactsFooter,
-  loadingVideos
+  loadingVideos,
+  loadingPosts
 };

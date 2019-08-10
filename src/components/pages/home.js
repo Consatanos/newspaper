@@ -1,6 +1,7 @@
 import React from 'react';
 import FooterAdd from '../footer-add';
 import VideoContainer from '../../containers/video-container';
+import { PostMinicardContainer } from '../../containers/post-container';
 import { SectionHeader } from '../section';
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <div className="col-12 col-lg-8">
               <SectionHeader
                 title="Popular News" />
+              <PostMinicardContainer />
             </div>
             <div className="col-12 col-lg-4">
               <SectionHeader

@@ -2,6 +2,7 @@ const initialState = {
   tests: [],
   navigation: [],
   videos: [],
+  posts: [],
   contacts: [
     {
       name: 'phone',
@@ -43,6 +44,11 @@ const reducer = (state = initialState, action) => {
       return {
         ...state,
         videos: action.payload
+      }
+    case 'LOADING_POSTS':
+      return {
+        ...state,
+        posts: action.payload
       }
 
     default:
