@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
+import Logo from '../logo';
 import NavigationListContainer from '../../containers/navigation-list-container';
 
 const Footer = () => {
@@ -13,7 +14,8 @@ const Footer = () => {
             <div className="col-12 col-sm-6 col-lg-4">
               <div className="footer-widget-area mt-80">
                 {/* Footer Logo */}
-
+                <Logo 
+                  classMod={'footer-logo'} />
                 {/* List */}
 
               </div>
