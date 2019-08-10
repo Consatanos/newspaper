@@ -138,18 +138,19 @@ export default class InfoService {
     ]
   };
 
-  getTests() {
+  getTests = async () => {
+    console.log('test')
     return new Promise((resolve) => {
       setTimeout(() => {
         resolve(this.data.tests)
       }, 500);
     });
   };
-  getNavigation() {
+  getInfo = async (fieldName) => {
     return new Promise((resolve) => {
       setTimeout(() => {
-        resolve(this.data.navigation)
+        resolve(this.data[fieldName])
       }, 500);
     });
-  };
+  }
 };

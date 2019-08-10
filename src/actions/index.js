@@ -10,8 +10,15 @@ const loadingNavigation = (navigation) => {
     payload: navigation
   };
 };
+const loadingContactsFooter = (contacts) => {
+  return {
+    type: 'LOADING_CONTACTS_FOOTER',
+    payload: contacts
+  };
+};
 
 export {
   testActions,
-  loadingNavigation
+  loadingNavigation,
+  loadingContactsFooter
 };

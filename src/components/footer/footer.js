@@ -2,6 +2,7 @@ import React from 'react';
 
 import Logo from '../logo';
 import NavigationListContainer from '../../containers/navigation-list-container';
+import { ContactsFooter } from '../contacts';
 
 const Footer = () => {
   return (
@@ -14,10 +15,10 @@ const Footer = () => {
             <div className="col-12 col-sm-6 col-lg-4">
               <div className="footer-widget-area mt-80">
                 {/* Footer Logo */}
-                <Logo 
+                <Logo
                   classMod={'footer-logo'} />
                 {/* List */}
-
+                <ContactsFooter />
               </div>
             </div>
             <NavigationListContainer />

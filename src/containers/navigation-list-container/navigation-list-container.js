@@ -9,7 +9,7 @@ import { withInfoService } from '../../components/hoc';
 class NavigationListContainer extends Component {
   componentDidMount() {
     const { infoListService, loadingNavigation } = this.props;
-    infoListService.getNavigation()
+    infoListService.getInfo('navigation')
       .then((data) => {
         loadingNavigation(data)
       });
