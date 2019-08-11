@@ -4,6 +4,7 @@ import PostCard from './post-card';
 import Post from './post';
 import PostAuthor from './post-author';
 import PostFeatured from './post-featured';
+import PostFeaturedMinicard from './post-featured-minicard';
 
 export {
   PostMinicard,
@@ -11,5 +12,6 @@ export {
   PostCard,
   Post,
   PostAuthor,
-  PostFeatured
+  PostFeatured,
+  PostFeaturedMinicard
 };
