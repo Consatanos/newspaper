@@ -5,6 +5,7 @@ import VideoContainer from '../../containers/video-container';
 import { PostMinicardContainer, PostAsideContainer } from '../../containers/post-container';
 import { NewsAsideContainer, NewsCardContainer, NewsMinicardContainer } from '../../containers/news-container';
 import { FormNewsletter } from '../form';
+import { PostFeatured } from '../post';
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
           <div className="row">
             <div className="col-12 col-md-6 col-lg-8">
               <div className="row">
-
+                <PostFeatured />
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4">

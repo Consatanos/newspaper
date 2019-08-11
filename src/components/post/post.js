@@ -7,9 +7,9 @@ import { connect } from 'react-redux';
 const Post = (props) => {
   const { posts } = props;
   const post = posts[3];
-  // const { imageUrl, category, title, author, likeCount, commentCount } = props;
   if (post) {
     const { imageUrl, category, title, author, likeCount, commentCount } = post;
+
     return (
       <div className="single-blog-post featured-post single-post">
         <div className="post-thumb">
@@ -37,7 +37,6 @@ const Post = (props) => {
                   <li><a href="#">stock market</a></li>
                 </ul>
               </div>
-
               {/* Post Like & Post Comment */}
               <div className="d-flex align-items-center post-like--comments">
                 <Link to="/" className="post-like"><img src={like} alt="" /> <span>{likeCount}</span></Link>
