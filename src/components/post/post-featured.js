@@ -4,17 +4,17 @@ import chat from './chat.png';
 import like from './like.png';
 
 const PostFeatured = (props) => {
-  const { imageUrl, category, title, author, likeCount, commentCount, descr } = props;
+  const { id, imageUrl, category, title, author, likeCount, commentCount, descr } = props;
 
   return (
     <div className="col-12 col-lg-7">
       <div className="single-blog-post featured-post">
         <div className="post-thumb">
-          <Link to="/"><img src={`img/${imageUrl}`} alt="" /></Link>
+          <Link to={{ pathname: "/post", state: { id: id } }}><img src={`img/${imageUrl}`} alt="" /></Link>
         </div>
         <div className="post-data">
-          <Link to="/" className="post-catagory">{category}</Link>
-          <Link to="/" className="post-title">
+          <Link to={{ pathname: "/post", state: { id: id } }} className="post-catagory">{category}</Link>
+          <Link to={{ pathname: "/post", state: { id: id } }} className="post-title">
             <h6>{title}</h6>
           </Link>
           <div className="post-meta">

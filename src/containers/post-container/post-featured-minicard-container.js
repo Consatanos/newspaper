@@ -24,6 +24,7 @@ class PostFeaturedMinicardContainer extends Component {
             return (
               <PostFeaturedMinicard
                 key={id}
+                id={id}
                 imageUrl={imageUrl}
                 category={category}
                 title={title}

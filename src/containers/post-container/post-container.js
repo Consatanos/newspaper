@@ -4,14 +4,15 @@ import { connect } from 'react-redux';
 import { Post } from '../../components/post';
 
 const PostContainer = (props) => {
-  const { posts } = props;
-  const post = posts[3];
+  const { id, posts } = props;
+  const post = posts.find(x => x.id === id);
 
   if (post) {
-    const { imageUrl, category, title, author, likeCount, commentCount, descr } = post;
+    const { id, imageUrl, category, title, author, likeCount, commentCount, descr } = post;
 
     return (
       <Post
+        id={id}
         imageUrl={imageUrl}
         category={category}
         title={title}

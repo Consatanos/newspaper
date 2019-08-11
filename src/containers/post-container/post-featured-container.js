@@ -8,10 +8,11 @@ const PostFeaturedContainer = (props) => {
   const post = posts[posts.length - 1];
 
   if (post) {
-    const { imageUrl, category, title, author, likeCount, commentCount, descr } = post;
+    const { id, imageUrl, category, title, author, likeCount, commentCount, descr } = post;
 
     return (
       <PostFeatured
+        id={id}
         imageUrl={imageUrl}
         category={category}
         title={title}

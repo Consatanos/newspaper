@@ -20,7 +20,9 @@ const App = () => {
           component={About} />
         <Route
           path="/post"
-          component={Post} />
+          render={({ location }) => {
+            return <Post id={location.state.id} />
+          }} />
         <Route
           path="/contact"
           component={Contact} />

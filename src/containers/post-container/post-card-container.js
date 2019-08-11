@@ -24,6 +24,7 @@ class PostCardContainer extends Component {
             return (
               <PostCard
                 key={id}
+                id={id}
                 imageUrl={imageUrl}
                 category={category}
                 title={title}

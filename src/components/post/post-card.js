@@ -4,16 +4,16 @@ import chat from './chat.png';
 import like from './like.png';
 
 const PostCard = (props) => {
-  const { imageUrl, author, title, descr, category, commentCount, likeCount } = props;
+  const { id, imageUrl, author, title, descr, category, commentCount, likeCount } = props;
 
   return (
     <div className="single-blog-post featured-post mb-30">
       <div className="post-thumb">
-        <Link to="/"><img src={`img/${imageUrl}`} alt="" /></Link>
+        <Link to={{ pathname: "/post", state: { id: id } }}><img src={`img/${imageUrl}`} alt="" /></Link>
       </div>
       <div className="post-data">
-        <Link to="/" className="post-catagory">{category}</Link>
-        <Link to="/" className="post-title">
+        <Link to={{ pathname: "/post", state: { id: id } }} className="post-catagory">{category}</Link>
+        <Link to={{ pathname: "/post", state: { id: id } }} className="post-title">
           <h6>{title}</h6>
         </Link>
         <div className="post-meta">

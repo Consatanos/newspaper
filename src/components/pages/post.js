@@ -7,14 +7,15 @@ import { PostAuthor } from '../post';
 import { NewsAsideContainer } from '../../containers/news-container';
 import { CommentAsideContainer, CommentMinicardContainer } from '../../containers/comment-constainer';
 
-const Post = () => {
+const Post = (props) => {
+  const { id } = props;
   return (
     <>
       <div className="blog-area section-padding-0-80">
         <div className="container">
           <div className="row">
             <div className="col-12 col-lg-8">
-              <PostContainer />
+              <PostContainer id={id} />
               <PostAuthor
                 name="James Smith"
                 position="The Author"

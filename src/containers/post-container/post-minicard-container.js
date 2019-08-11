@@ -24,6 +24,7 @@ class PostMinicardContainer extends Component {
             return (
               <PostMinicard
                 key={id}
+                id={id}
                 imageUrl={imageUrl}
                 category={category}
                 title={title}

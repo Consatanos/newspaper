@@ -4,17 +4,17 @@ import chat from './chat.png';
 import like from './like.png';
 
 const PostFeaturedMinicard = (props) => {
-  const { imageUrl, category, title, likeCount, commentCount } = props;
+  const { id, imageUrl, category, title, likeCount, commentCount } = props;
 
   return (
     <div className="single-blog-post featured-post-2">
       <div className="post-thumb">
-        <Link to="/"><img src={`img/${imageUrl}`} alt="" /></Link>
+        <Link to={{ pathname: "/post", state: { id: id } }}><img src={`img/${imageUrl}`} alt="" /></Link>
       </div>
       <div className="post-data">
-        <Link to="/" className="post-catagory">{category}</Link>
+        <Link to={{ pathname: "/post", state: { id: id } }} className="post-catagory">{category}</Link>
         <div className="post-meta">
-          <Link to="/" className="post-title">
+          <Link to={{ pathname: "/post", state: { id: id } }} className="post-title">
             <h6>{title}</h6>
           </Link>
           {/* Post Like & Post Comment */}

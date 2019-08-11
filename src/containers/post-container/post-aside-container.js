@@ -24,6 +24,7 @@ class PostAsideContainer extends Component {
             return (
               <PostAside
                 key={id}
+                id={id}
                 imageUrl={imageUrl}
                 category={category}
                 title={title}
