@@ -37,7 +37,6 @@ const renderItem = (data) => {
           }
         </div>
       );
-
     case 'address':
       return (
         <div className="single-contact-information mb-30">
