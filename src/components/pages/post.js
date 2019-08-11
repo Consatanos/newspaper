@@ -1,9 +1,9 @@
 import React from 'react';
 import { SectionHeader } from '../section';
 import { PagerPost } from '../pager';
-import { PostMinicardContainer, PostAsideContainer } from '../../containers/post-container';
+import { PostMinicardContainer, PostAsideContainer, PostContainer } from '../../containers/post-container';
 import { FormComment, FormNewsletter } from '../form';
-import { Post as PostSingle, PostAuthor } from '../post';
+import { PostAuthor } from '../post';
 import { NewsAsideContainer } from '../../containers/news-container';
 import { CommentAsideContainer, CommentMinicardContainer } from '../../containers/comment-constainer';
 
@@ -14,7 +14,7 @@ const Post = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 col-lg-8">
-              <PostSingle />
+              <PostContainer />
               <PostAuthor
                 name="James Smith"
                 position="The Author"
