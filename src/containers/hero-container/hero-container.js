@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { compose } from 'redux';
 
 import { withInfoService } from '../../components/hoc';
+import Ticker from '../../components/ticker';
 
 class HeroContainer extends Component {
   componentDidMount() {
@@ -16,37 +17,23 @@ class HeroContainer extends Component {
   render() {
     const { news } = this.props;
     return (
-      <>
-        <div className="col-12 col-lg-8">
-          {/* Breaking News Widget */}
-          <div className="breaking-news-area d-flex align-items-center">
-            <div className="news-title">
-              <p>Breaking News</p>
-              <div id="breakingNewsTicker" className="ticker">
-                <ul>
-                  {/* <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-                  <li><a href="#">Welcome to Colorlib Family.</a></li>
-                  <li><a href="#">Nam eu metus sitsit amet, consec!</a></li> */}
-                </ul>
-              </div>
-            </div>
+      <div className="col-12 col-lg-8">
+        {/* Breaking News Widget */}
+        <div className="breaking-news-area d-flex align-items-center">
+          <div className="news-title">
+            <p>Breaking News</p>
           </div>
-
-          {/* Breaking News Widget */}
-          <div className="breaking-news-area d-flex align-items-center mt-15">
-            <div className="news-title title2">
-              <p>International</p>
-              <div id="internationalTicker" className="ticker">
-                <ul>
-                  {/* <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-                  <li><a href="#">Welcome to Colorlib Family.</a></li>
-                  <li><a href="#">Nam eu metus sitsit amet, consec!</a></li> */}
-                </ul>
-              </div>
-            </div>
-          </div>
+          <Ticker />
         </div>
-      </>
+
+        {/* Breaking News Widget */}
+        <div className="breaking-news-area d-flex align-items-center mt-15">
+          <div className="news-title title2">
+            <p>International</p>
+          </div>
+          <Ticker />
+        </div>
+      </div>
     )
   };
 };
