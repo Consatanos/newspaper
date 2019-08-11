@@ -2,10 +2,12 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { Home, About, Post, Contact, Categories } from '../pages';
 import Footer from '../footer';
+import { Hero } from '../hero';
 
 const App = () => {
   return (
     <>
+      <Hero />
       <Switch>
         <Route
           path="/"
