@@ -1,3 +1,7 @@
 import Footer from './footer';
+import FooterAdd from './footer-add';
 
-export default Footer;
+export {
+  Footer,
+  FooterAdd
+};

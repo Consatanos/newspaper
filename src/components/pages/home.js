@@ -1,6 +1,6 @@
 import React from 'react';
 import { SectionHeader } from '../section';
-import FooterAdd from '../footer-add';
+import { FooterAdd } from '../footer';
 import VideoContainer from '../../containers/video-container';
 import { PostMinicardContainer, PostAsideContainer, PostFeaturedContainer, PostFeaturedMinicardContainer } from '../../containers/post-container';
 import { NewsAsideContainer, NewsCardContainer, NewsMinicardContainer } from '../../containers/news-container';
