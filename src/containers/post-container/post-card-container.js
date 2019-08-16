@@ -15,11 +15,12 @@ class PostCardContainer extends Component {
   };
 
   render() {
-    const { posts } = this.props;
+    const { posts, categories } = this.props;
+    const postsList = categories ? posts.filter(post => post.category === categories) : posts;
     return (
       <div className="blog-posts-area">
         {
-          posts.slice(-4).reverse().map((post) => {
+          postsList.map((post) => {
             const { id, imageUrl, author, title, descr, category, commentCount, likeCount } = post;
             return (
               <PostCard

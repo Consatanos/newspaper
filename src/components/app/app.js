@@ -20,6 +20,7 @@ const App = () => {
           component={About} />
         <Route
           path="/post"
+          exact
           render={({ location }) => {
             return <Post id={location.state.id} />
           }} />
@@ -28,7 +29,14 @@ const App = () => {
           component={Contact} />
         <Route
           path="/categories"
-          component={Categories} />
+          exact
+          render={({ location }) => {
+            if (location.state === undefined) {
+              return <Categories />
+            } else {
+              return <Categories category={location.state.category} />
+            }
+          }} />
       </Switch>
       <Footer />
     </>

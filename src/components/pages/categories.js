@@ -5,14 +5,15 @@ import { NewsAsideContainer } from '../../containers/news-container';
 import { CommentAsideContainer } from '../../containers/comment-constainer';
 import { PagerPage } from '../pager';
 
-const Categories = () => {
+const Categories = (props) => {
+  const { category } = props;
   return (
     <>
       <div className="blog-area section-padding-0-80">
         <div className="container">
           <div className="row">
             <div className="col-12 col-lg-8">
-              <PostCardContainer />
+              <PostCardContainer categories={category} />
               <PagerPage />
             </div>
             <div className="col-12 col-lg-4">

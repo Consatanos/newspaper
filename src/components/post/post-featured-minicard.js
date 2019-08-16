@@ -12,7 +12,7 @@ const PostFeaturedMinicard = (props) => {
         <Link to={{ pathname: "/post", state: { id: id } }}><img src={`img/${imageUrl}`} alt="" /></Link>
       </div>
       <div className="post-data">
-        <Link to={{ pathname: "/post", state: { id: id } }} className="post-catagory">{category}</Link>
+        <Link to={{ pathname: "/categories", state: { category: category } }} className="post-catagory">{category}</Link>
         <div className="post-meta">
           <Link to={{ pathname: "/post", state: { id: id } }} className="post-title">
             <h6>{title}</h6>
