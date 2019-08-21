@@ -42,49 +42,57 @@ export default class InfoService {
         id: 1,
         title: 'Amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales.',
         date: 'April 14, 2018',
-        imageUrl: 'bg-img/1.jpg'
+        imageUrl: 'bg-img/1.jpg',
+        linkUrl: '/1'
       },
       {
         id: 2,
         title: 'Consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer.',
         date: 'April 14, 2018',
-        imageUrl: 'bg-img/2.jpg'
+        imageUrl: 'bg-img/2.jpg',
+        linkUrl: '/2'
       },
       {
         id: 3,
         title: 'Adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo.',
         date: 'April 14, 2018',
-        imageUrl: 'bg-img/3.jpg'
+        imageUrl: 'bg-img/3.jpg',
+        linkUrl: '/3',
       },
       {
         id: 4,
         title: 'Eu metus sit amet odio sodales placer. Sed varius leo ac...',
         date: 'April 14, 2018',
-        imageUrl: 'bg-img/4.jpg'
+        imageUrl: 'bg-img/4.jpg',
+        linkUrl: '/4',
       },
       {
         id: 5,
         title: 'Amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales.',
         date: 'April 14, 2018',
-        imageUrl: 'bg-img/1.jpg'
+        imageUrl: 'bg-img/1.jpg',
+        linkUrl: '/5',
       },
       {
         id: 6,
         title: 'Consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer.',
         date: 'April 14, 2018',
-        imageUrl: 'bg-img/2.jpg'
+        imageUrl: 'bg-img/2.jpg',
+        linkUrl: '/6',
       },
       {
         id: 7,
         title: 'Adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo.',
         date: 'April 14, 2018',
-        imageUrl: 'bg-img/3.jpg'
+        imageUrl: 'bg-img/3.jpg',
+        linkUrl: '/7',
       },
       {
         id: 8,
         title: 'Eu metus sit amet odio sodales placer. Sed varius leo ac...',
         date: 'April 14, 2018',
-        imageUrl: 'bg-img/4.jpg'
+        imageUrl: 'bg-img/4.jpg',
+        linkUrl: '/8',
       }
     ],
     facts: [
@@ -491,7 +499,7 @@ export default class InfoService {
     return new Promise((resolve) => {
       setTimeout(() => {
         resolve(this.data[fieldName])
-      }, 500);
+      }, 0);
     });
   }
 };

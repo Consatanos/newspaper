@@ -1,19 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-class Ticker extends Component {
-
-
-  render() {
-    return (
-      <div className="ticker">
-        <ul>
-          <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-          <li><a href="#">Welcome to Colorlib Family.</a></li>
-          <li><a href="#">Nam eu metus sitsit amet, consec!</a></li>
-        </ul>
-      </div>
-    )
-  }
+const Ticker = (props) => {
+  const { messageText, messageUrl } = props;
+  return (
+    <div className="ticker">
+      <ul>
+        <li>
+          <Link to={messageUrl}>{messageText}</Link>
+        </li>
+      </ul>
+    </div>
+  )
 };
 
 export default Ticker;

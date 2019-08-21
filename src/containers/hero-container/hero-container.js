@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { compose } from 'redux';
 
 import { withInfoService } from '../../components/hoc';
-import Ticker from '../../components/ticker';
+import TickerContainer from '../../containers/ticker-container';
 
 class HeroContainer extends Component {
   componentDidMount() {
@@ -23,7 +23,7 @@ class HeroContainer extends Component {
           <div className="news-title">
             <p>Breaking News</p>
           </div>
-          <Ticker />
+          <TickerContainer />
         </div>
 
         {/* Breaking News Widget */}
@@ -31,7 +31,7 @@ class HeroContainer extends Component {
           <div className="news-title title2">
             <p>International</p>
           </div>
-          <Ticker />
+          <TickerContainer />
         </div>
       </div>
     )

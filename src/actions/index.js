@@ -56,7 +56,7 @@ const loadingAithors = (authors) => {
 
 const loadingComments = (comments) => {
   return {
-    type: 'LOADING_COMMENTS':
+    type: 'LOADING_COMMENTS',
     payload: comments
   }
 }
